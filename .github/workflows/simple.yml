@@ -20,7 +20,7 @@ jobs:
               shell: python
     run-windows-commnads:
         runs-on: windows-latest
-        step:
+        steps:
           - name: Directory Powershell
             run: Get-Location
           - name: Directory Bash
