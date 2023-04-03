@@ -15,5 +15,6 @@ jobs:
             - name: python Command
               run: |
                 import platform
-                print("hello")
+                print
+                ("hello")
                 shell: python          
